@@ -1,6 +1,5 @@
-set str=%~dp0
-
-hexo d %str%
+hexo d 
+hexo d 
 hexo s
 echo off
 pause
