@@ -82,7 +82,7 @@ disqus_shortname:
 #theme: landscape
 #theme: hexo3
 #theme: customTheme
-theme: modernist
+theme: daisy
 exclude_generator:
 
 # Deployment
