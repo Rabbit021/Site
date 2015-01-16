@@ -1,0 +1,22 @@
+menu:
+  首页: /
+  文章归档: /archives
+  友情链接: /links
+  关于: /about
+
+excerpt_link: 阅读全文 >
+archive_yearly: true
+widgets: #站点右边栏，暂时默认，后面介绍修改和添加
+- search
+- category
+- tagcloud
+- weibo
+- blogroll
+google_analytics: UA-5353535-6
+
+rss: /atom.xml
+
+comment_provider: duoshuo
+# Duoshuo comment
+duoshuo:
+  short_name: johnengine

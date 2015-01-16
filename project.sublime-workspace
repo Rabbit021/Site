@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "themes/customTheme/layout/index.ejs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "themes/customTheme/layout/post.ejs",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "themes/customTheme/layout/_partial/post_entry.ejs",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "themes/hexo3/layout/index.ejs",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/hexo3/layout/post.ejs",
+			"settings":
+			{
+				"buffer_size": 175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/hexo3/layout/_partial/after-footer.ejs",
+			"settings":
+			{
+				"buffer_size": 1568,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"ejs",
+				"Snippet: <%(=) 'insert ejs tags' %>"
+			],
+			[
+				"set ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Site/themes/customTheme/_config.yml",
+		"/E/Site/_config.yml",
+		"/E/Site/themes/customTheme/layout/index.ejs",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/Theme - DefaultPlus/DefaultPlus.sublime-theme",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/John/Desktop/Theme - DefaultPlus/DefaultPlus.sublime-theme",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/Theme - Default/Default.sublime-theme",
+		"/C/Users/John/Desktop/Theme - DefaultPlus/Widget.sublime-settings",
+		"/E/Site/themes/landscape/layout/page.ejs",
+		"/E/Site/themes/landscape/layout/layout.ejs",
+		"/E/Site/themes/hexo3/source/css/_util/grid.styl",
+		"/E/Site/themes/hexo3/source/css/style.styl",
+		"/E/Site/themes/hexo3/source/css/_variables.styl",
+		"/E/Site/themes/hexo3/_config.yml",
+		"/E/Site/themes/landscape/_config.yml",
+		"/E/Site/themes/hexo3/layout/index.ejs",
+		"/E/Site/themes/hexo3/layout/_partial/post/title.ejs",
+		"/E/Site/themes/hexo3/source/js/retina.min.js",
+		"/E/Site/scaffolds/draft.md",
+		"/E/Site/themes/landscape/Gruntfile.js",
+		"/E/Site/Start.txt",
+		"/E/Site/Start.bat",
+		"/E/Site/generate.bat",
+		"/E/Site/install.bat",
+		"/E/Site/.git/config",
+		"/C/Users/John/Desktop/install.txt",
+		"/E/John-pc.com.io/Readme.md",
+		"/E/Site/source/_posts/Try.md",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/John/Desktop/New Document.md",
+		"/C/Users/John/Desktop/New Document.html",
+		"/C/Users/John/mercurial.ini",
+		"/C/Users/John/.ssh/id_rsa.pub",
+		"/C/Users/John/.gitconfig",
+		"/C/Users/John/Desktop/1.mdown",
+		"/D/Program Files/goagent/local/proxy.ini",
+		"/D/Program Files/goagent/server/gae/app.yaml",
+		"/C/Users/John/Desktop/checkgoogleip-master/checkip.py",
+		"/C/Users/John/Desktop/checkgoogleip-master/cacert.pem",
+		"/D/Program Files/goagent/local/proxy.ini.bak"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font.size",
+			"font",
+			"font-size",
+			"sidebar",
+			"silde",
+			"["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "themes/customTheme/layout/index.ejs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "themes/customTheme/layout/post.ejs",
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "themes/customTheme/layout/_partial/post_entry.ejs",
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "themes/hexo3/layout/index.ejs",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "themes/hexo3/layout/post.ejs",
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "themes/hexo3/layout/_partial/after-footer.ejs",
+					"settings":
+					{
+						"buffer_size": 1568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/Site/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
