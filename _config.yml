@@ -79,10 +79,10 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-#theme: landscape
-#theme: hexo3
-#theme: customTheme
-theme: daisy
+theme: landscape-plus
+#theme: daisy
+#theme: jacman
+
 exclude_generator:
 
 # Deployment
