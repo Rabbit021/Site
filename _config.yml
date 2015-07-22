@@ -79,6 +79,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
+#theme: landscape
 theme: landscape-plus
 #theme: daisy
 #theme: jacman
@@ -88,5 +89,5 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: https://github.com/John-pc/John-pc.github.io.git
