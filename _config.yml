@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: John Engine
+title: Rabbit
 subtitle: 博客
 description: 
 author: John
-email:
-language:
+email: 635253084@qq.com  
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://John-pc.github.com
+url: http://shinyrabbit.github.io
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -90,4 +90,5 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/John-pc/John-pc.github.io.git
+  repo: https://github.com/shinyrabbit/shinyrabbit.github.io.git
+

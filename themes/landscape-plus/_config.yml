@@ -33,7 +33,13 @@ fb_admins:
 fb_app_id:
 
 # Duoshuo
-duoshuo_shortname: johnengine
+# duoshuo_shortname: johnengine
+
+# Disqus 
+disqus:
+  enable: true
+  shortname: rabbit-1    #your name
+  count: true
 
 # Baidu share
 baidushare: true
