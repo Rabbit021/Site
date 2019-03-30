@@ -1,3 +1,3 @@
-[submodule "theme/BlueLake"]
-	path = theme/BlueLake
+[submodule "themes/BlueLake"]
+	path = themes/BlueLake
 	url = https://github.com/chaooo/hexo-theme-BlueLake.git
