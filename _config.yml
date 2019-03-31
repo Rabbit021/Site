@@ -4,8 +4,9 @@
 
 # Site
 title: Rabbit
-subtitle: 博客
-description: 
+subtitle: 改变自己,从现在做起
+description: Rabbit's Blog
+keywords: unity3d dotnet .net wpf asp.net core 
 author: John
 email: 635253084@qq.com  
 language: zh-CN
@@ -92,3 +93,22 @@ deploy:
   type: git
   repo: https://github.com/shinyrabbit/shinyrabbit.github.io.git
 
+#jsonContent
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
