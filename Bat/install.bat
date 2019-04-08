@@ -1,5 +1,5 @@
 @echo off
-echo 开始安装
+echo start install
 echo f| npm install hexo-cli -g
 echo f| npm install hexo --save
 
@@ -30,7 +30,7 @@ echo f| npm install hexo-renderer-stylus@0.2 --save
 
 
 
-echo 安装完成
+echo install completed
 @pause
 
 
