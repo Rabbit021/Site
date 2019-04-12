@@ -1,7 +1,7 @@
 title: Supervisior使用总结
 date: 2019-04-04 13:29:46
 tags: supervisor
-categories: linux ; 工具
+categories: [linux , 工具]
 
 ---
 
