@@ -91,7 +91,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/shinyrabbit/shinyrabbit.github.io.git
+  repo: https://github.com/Rabbit021/shinyrabbit.github.io.git
 
 #jsonContent
 jsonContent:
