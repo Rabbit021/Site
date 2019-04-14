@@ -8,6 +8,7 @@ trigger: [master]
 
 steps:
 - script: |
+    git config --global user.name "635253084@qq.com"
     sudo npm install hexo-cli -g
     sudo npm install 
     sudo hexo g -d
