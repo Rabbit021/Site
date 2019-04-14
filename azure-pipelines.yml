@@ -8,7 +8,6 @@ trigger: [master]
 
 steps:
 - script: |
-    git config --global credential.helper osxkeychain
     sudo npm install hexo-cli -g
     sudo npm install 
     sudo hexo g -d
