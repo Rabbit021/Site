@@ -8,9 +8,8 @@ trigger: [master]
 
 steps:
 - script: |
-    sudo npm install hexo -g
+    sudo npm install hexo-cli -g
     sudo npm install 
-    sudo hexo g
-    sudo hexo d 
+    sudo hexo g -d
 
 
