@@ -6,9 +6,9 @@ pool:
 
 steps:
 - script: |
-    npm install hexo -g
-    npm install 
-    hexo g
-    hexo d 
+    sudo npm install hexo -g
+    sudo npm install 
+    sudo hexo g
+    sudo hexo d 
 
 
