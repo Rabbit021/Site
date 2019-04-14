@@ -1,0 +1,13 @@
+resources:
+- repo: self
+
+pool:
+  vmImage: ubuntu-16.04
+
+steps:
+- script: |
+    npm install 
+    hexo g
+    hexo d 
+
+
