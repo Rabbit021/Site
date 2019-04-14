@@ -10,8 +10,8 @@ Supervisiors是用python编写的linux下一款进程控制软件，控制进程
 ## Supervisior安装
 
 ## 系统环境:
-    - 操作系统：Ubuntu 16.04.6 LTS
-    - Python： 2.7.12
+  - 操作系统：Ubuntu 16.04.6 LTS
+  - Python： 2.7.12
 
 1. 使用使用pip安装：（貌似可以安装最新的）
 
@@ -55,15 +55,15 @@ sudo supervisord -c /etc/supervisor/supervisord.conf # 指定配置文件启动
    ;password=123               ; default is no password (open server)
    ```
 
-   
 
-   | 属性     | 属性值               | 说明       |
-   | -------- | -------------------- | ---------- |
-   | file     | /tmp/supervisor.sock | 不是必须的 |
-   | chmod    | 0777                 | 不是必须的 |
-   | chown    | nobody:nogroup       | 不是必须的 |
-   | username | user                 | 不是必须的 |
-   | password | 123                  | 不是必须的 |
+
+| file     | /tmp/supervisor.sock | 不是必须的 |
+| -------- | -------------------- | ---------- |
+| chmod    | 0777                 | 不是必须的 |
+| 属性     | 属性值               | 说明       |
+| chown    | nobody:nogroup       | 不是必须的 |
+| username | user                 | 不是必须的 |
+| password | 123                  | 不是必须的 |
 
 2. `[inet_http_server]` 可以配置http服务，可以通过通过web服务来控制服务的启动
 
@@ -75,14 +75,13 @@ sudo supervisord -c /etc/supervisor/supervisord.conf # 指定配置文件启动
    
    ```
 
-   
 
-   | 属性     | 属性值               | 说明             |
-   | -------- | -------------------- | ---------------- |
-   | port     | /tmp/supervisor.sock | 访问的地址       |
-   | username | user                 | 授权的用户和密码 |
-   | password | 123                  |                  |
 
+| 属性     | 属性值               | 说明             |
+| -------- | -------------------- | ---------------- |
+| port     | /tmp/supervisor.sock | 访问的地址       |
+| username | user                 | 授权的用户和密码 |
+| password | 123                  | 授权的用户和密码 |
 3. `[include]` 设备
 
    ```ini
@@ -93,16 +92,16 @@ sudo supervisord -c /etc/supervisor/supervisord.conf # 指定配置文件启动
 
 4. web管理方式的配置：(配置之前备份一下配置文件`cp supervisord.conf supervisord.conf.bak`)
 
-   1. 配置http_server
 
-      ```ini
-      [inet_http_server]
-      port=ip:9001      #配置ip或者*
-      ```
 
-      
+   ```ini
+   [inet_http_server]
+   port=ip:9001      #配置ip或者*
+   ```
 
-   
+
+
+
 
 ## Supervisior使用
 
