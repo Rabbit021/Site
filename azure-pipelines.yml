@@ -1,15 +1,33 @@
-resources:
-- repo: self
+trigger:
+- master # Hexo 原项目分支名
 
 pool:
-  vmImage: ubuntu-16.04
-
-trigger: [master]
+  vmImage: 'Ubuntu-16.04' # 运行环境
 
 steps:
+- task: NodeTool@0 # 安装NodeJS
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Installing Node.js...'
+- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: 'github.com'
+    sshPublicKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDO4cFSn6BBuQdOoDdoMWxSGAIefseTbYiucmOKqZiH4eYScydSzasbo3mdASa5OSIARTe3OcTGT6oGxZL27YxuDYQXZW5zEnHWthZKw/R0X8++5dLLREYn8I197Rj3LXEJlHOOfrAwztVP8QZipms46+oPNHg6HuUvjBSqHLAqb9gixQy2ODfVfaEvgyEY9rPg3Ihl6Z3dlBZ53kQjKKfWqnCzw1oIF+3k0Nm838v8e+TJR2Q3eVHYOoMkLzT/vvdlrsuTfIiTSOz/gVgApWAKNBCior4agzTaC1z9FIuZPhPVf21H23IzlS/R0Lh2aqloYln1FNMtldMqBsl+jN7uiVsAA1sFDJ6pkP8hdibNI+5CjHjYPYPN3+GnEonR5o8utTVlTaJGJVITKhwpsyyfiOwSKDYETJv/bjIeB4wufGUqoIazST2/8RALleNEqthmI+St3pvywS+Mv+w5CbSPLiP2Ee7DVdoPjC3HdiuirAFMOgdqqCyGlBO9rBBA2Hk= wangheng@persagy.com'
+    sshKeySecureFile: 'key'
+# 安装Hexo脚手架，Hexo依赖
 - script: |
-    sudo npm install hexo-cli -g
-    sudo npm install 
-    sudo hexo g -d
+    npm install -g hexo-cli
+    npm install
+  displayName: 'Installing dependencies...'
 
+# 清理（可选），生成public静态目录（可选）
+- script: |
+    hexo clean
+    hexo g
+  displayName: 'Building...'
 
+- script: |
+    git config --global user.name "rabbit021"
+    git config --global user.email "635253084@qq.com"
+    hexo d
+  displayName: 'Deploying...'

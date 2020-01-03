@@ -89,8 +89,10 @@ comment:
   uyan: ## 友言(uid)
   cloudTie: ## 网易云跟帖(productKey)
   changyan: ## 畅言需在下方配置两个参数，此处不填。
-    appid: cyu9WHbIy ## 畅言(appid)
-    appkey: 2558b0d53225848912cf08d9f3db46c8 ##畅言(appkey)
+    appid:  ## 畅言(appid)
+    appkey: ##畅言(appkey)
+    # appid: cyu9WHbIy ## 畅言(appid)
+    # appkey: 2558b0d53225848912cf08d9f3db46c8 ##畅言(appkey)
 
 gitalk:
   enable: false ## If you want to use Gitment comment system please set the value to true.
