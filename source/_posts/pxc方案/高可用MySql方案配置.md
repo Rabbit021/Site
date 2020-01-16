@@ -11,6 +11,8 @@ tags: [mysql,pxc,docker]
 
 **前置条件** 安装好Docker
 
+## PXC集群创建
+
 
 
 1. **镜像获取**
@@ -99,7 +101,22 @@ tags: [mysql,pxc,docker]
 
 
 4.  **按照上述步骤创建四个节点之后，使用Navicat就可以连接上述四个数据库，每个数据库的中的操作都会同步到其他的节点，保证数据的强一致性。**
-5. **使HAProxy对myql做负载均衡**
+
+## HaProxy对myql做负载均衡
+
+1. 获取镜像
+
+   ```shell
+   docker pull haproxy # 获取haproxy的镜像
+   ```
+
+3. 配置haproxy.cfg配置文件
+
+    ```
+
+    ```
+
+
 
 
 
