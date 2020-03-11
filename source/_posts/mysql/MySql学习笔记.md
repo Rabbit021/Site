@@ -177,10 +177,47 @@ EXPLAIN结果说明
 </tbody>
 </table>
 
-### 复合索引（联合索引）
+
+### Mysql扫描行数估算
+
+1. 使用**SHOW INDEX FROM tb_index**可以查看index的索引统计值，刚更新行数超过**1/M**则会重新估算，可以使用**analyze table**重新估算 ，可以通过设置innodb_stats_persistent，修改重新统计的比例.
+
+![image-20200311175523351](\source\img\mysql\showindex.png)
+
+### 组合索引(clustered index)
 
 1. 复合最左原则，例如  Key （A，B, C）一下会走索引 A | A,B |A,B,C这些走索引
-2. Where中使用OR是不走索引的
-3. 当预估查询的结果数量超过15%，会走全表查询
-4. 索引有长度限制：单列索引255个字符
+2. Where中使用OR是不走索引的，**如果符合索引覆盖(主键索引一样)，会走做索引树扫描，explain里体现为type为Index**,例如:**表 tb 有 a,b,c三列 ，Index（a,b,c）, select a from tb where b=xxx 则会遍历索引树，知道符合查找条件为止**
+3. 索引有长度限制：好像是单列索引255个字符
+
+### Mysql排序
+
+```sql
+-- 创建表
+
+CREATE TABLE `person` (
+	`id` INT ( 11 ) NOT NULL,
+	`city` VARCHAR ( 16 ) NOT NULL,
+	`name` VARCHAR ( 16 ) NOT NULL,
+	`age` INT ( 11 ) NOT NULL,
+	`addr` VARCHAR ( 128 ) DEFAULT NULL,
+	PRIMARY KEY ( `id` ),
+KEY `city` ( `city` ) 
+) ENGINE = INNODB;
+
+SHOW  VARIABLES like 'sort_buffer_size'; // 用于排序内存大小
+
+// 全字段排序
+select city,name,age from person where city='杭州' order by name limit 1000;
+
+
+// RowI排序
+// 控制用于排序的行数据的长度的一个参数，先排序，找到主键Id，然后再去取记录
+SET max_length_for_sort_data = 16; 
+
+```
+
+
+
+
 
